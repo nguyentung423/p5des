@@ -44,20 +44,20 @@
   <rect x="180" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
   <rect x="195" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
   <text x="290" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Nordic Residence</text>
-  <text x="290" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Copenhagen, 2024</text>
+  <text x="290" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Copenhagen, 2026</text>
   <text x="290" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Residential</text>
   
   <!-- Card 2 -->
   <rect x="470" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
   <rect x="485" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
   <text x="580" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Harbor View</text>
-  <text x="580" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Aarhus, 2023</text>
+  <text x="580" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Aarhus, 2026</text>
   <text x="580" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Commercial</text>
   
   <!-- Card 3 -->
   <rect x="760" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
   <rect x="775" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
   <text x="870" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Villa Serene</text>
-  <text x="870" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Malmö, 2023</text>
+  <text x="870" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Malmö, 2026</text>
   <text x="870" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Residential</text>
 </svg>
