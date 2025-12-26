@@ -1,0 +1,54 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F5F4F0"/>
+  
+  <!-- Browser Frame -->
+  <rect x="100" y="80" width="1000" height="640" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="100" y="80" width="1000" height="40" rx="8" fill="#FAFAFA"/>
+  <rect x="100" y="112" width="1000" height="8" fill="#FAFAFA"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="128" cy="100" r="6" fill="#FF5F56"/>
+  <circle cx="148" cy="100" r="6" fill="#FFBD2E"/>
+  <circle cx="168" cy="100" r="6" fill="#27CA40"/>
+  
+  <!-- URL Bar -->
+  <rect x="300" y="90" width="600" height="20" rx="4" fill="#EFEFEF"/>
+  
+  <!-- Content Area -->
+  <rect x="140" y="160" width="920" height="520" fill="#FCFCFA"/>
+  
+  <!-- App Content - Checkout Flow -->
+  <rect x="400" y="200" width="400" height="440" rx="24" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  
+  <!-- Phone Notch -->
+  <rect x="540" y="210" width="120" height="24" rx="12" fill="#0F0F0F"/>
+  
+  <!-- Header -->
+  <text x="600" y="280" text-anchor="middle" fill="#0F0F0F" font-family="system-ui" font-size="18" font-weight="500">Orbit Checkout</text>
+  
+  <!-- Progress Bar -->
+  <rect x="440" y="310" width="320" height="4" rx="2" fill="#E5E5E5"/>
+  <rect x="440" y="310" width="213" height="4" rx="2" fill="#0F0F0F"/>
+  
+  <!-- Amount Section -->
+  <text x="460" y="370" fill="#6B6B6B" font-family="system-ui" font-size="12">AMOUNT</text>
+  <text x="460" y="400" fill="#0F0F0F" font-family="system-ui" font-size="32" font-weight="600">$2,450.00</text>
+  
+  <!-- Fee Breakdown -->
+  <rect x="440" y="430" width="320" height="80" rx="8" fill="#F8F8F6"/>
+  <text x="460" y="460" fill="#6B6B6B" font-family="system-ui" font-size="12">Platform fee</text>
+  <text x="740" y="460" text-anchor="end" fill="#0F0F0F" font-family="system-ui" font-size="12">$24.50</text>
+  <text x="460" y="490" fill="#6B6B6B" font-family="system-ui" font-size="12">Processing</text>
+  <text x="740" y="490" text-anchor="end" fill="#0F0F0F" font-family="system-ui" font-size="12">$12.25</text>
+  
+  <!-- Total -->
+  <text x="460" y="550" fill="#0F0F0F" font-family="system-ui" font-size="14" font-weight="500">Total</text>
+  <text x="740" y="550" text-anchor="end" fill="#0F0F0F" font-family="system-ui" font-size="14" font-weight="600">$2,486.75</text>
+  
+  <!-- CTA Button -->
+  <rect x="440" y="580" width="320" height="48" rx="8" fill="#0F0F0F"/>
+  <text x="600" y="610" text-anchor="middle" fill="#FFFFFF" font-family="system-ui" font-size="14" font-weight="500">Confirm Payment</text>
+</svg>

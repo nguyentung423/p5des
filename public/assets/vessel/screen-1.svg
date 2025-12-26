@@ -1,0 +1,51 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F5F4F0"/>
+  
+  <!-- Browser Frame -->
+  <rect x="80" y="40" width="640" height="520" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="80" y="40" width="640" height="32" rx="8" fill="#FAFAFA"/>
+  <rect x="80" y="68" width="640" height="4" fill="#FAFAFA"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="104" cy="56" r="5" fill="#FF5F56"/>
+  <circle cx="120" cy="56" r="5" fill="#FFBD2E"/>
+  <circle cx="136" cy="56" r="5" fill="#27CA40"/>
+  
+  <!-- Content Area - Project Page -->
+  <rect x="100" y="90" width="600" height="450" fill="#FCFCFA"/>
+  
+  <!-- Navigation Breadcrumb -->
+  <text x="130" y="120" fill="#6B6B6B" font-family="system-ui" font-size="11">Projects / Residential / Nordic Residence</text>
+  
+  <!-- Project Hero Image -->
+  <rect x="130" y="140" width="540" height="200" rx="4" fill="#E8E8E8"/>
+  <text x="400" y="250" text-anchor="middle" fill="#9CA3AF" font-family="system-ui" font-size="14">Project Hero Image</text>
+  
+  <!-- Project Info -->
+  <text x="130" y="380" fill="#0F0F0F" font-family="Georgia" font-size="24">Nordic Residence</text>
+  <text x="130" y="410" fill="#6B6B6B" font-family="system-ui" font-size="12">A 280m² family home designed around light, warmth, and connection to nature.</text>
+  <text x="130" y="430" fill="#6B6B6B" font-family="system-ui" font-size="12">Located in the outskirts of Copenhagen, the project reimagines Scandinavian living.</text>
+  
+  <!-- Meta Info -->
+  <text x="130" y="470" fill="#6B6B6B" font-family="system-ui" font-size="10">LOCATION</text>
+  <text x="130" y="490" fill="#0F0F0F" font-family="system-ui" font-size="12">Copenhagen, Denmark</text>
+  
+  <text x="280" y="470" fill="#6B6B6B" font-family="system-ui" font-size="10">YEAR</text>
+  <text x="280" y="490" fill="#0F0F0F" font-family="system-ui" font-size="12">2024</text>
+  
+  <text x="380" y="470" fill="#6B6B6B" font-family="system-ui" font-size="10">TYPE</text>
+  <text x="380" y="490" fill="#0F0F0F" font-family="system-ui" font-size="12">Residential</text>
+  
+  <text x="500" y="470" fill="#6B6B6B" font-family="system-ui" font-size="10">SIZE</text>
+  <text x="500" y="490" fill="#0F0F0F" font-family="system-ui" font-size="12">280 m²</text>
+  
+  <!-- CTA -->
+  <rect x="600" y="375" width="70" height="32" rx="4" fill="#0F0F0F"/>
+  <text x="635" y="396" text-anchor="middle" fill="#FFFFFF" font-family="system-ui" font-size="11">Inquire</text>
+  
+  <!-- Label -->
+  <text x="400" y="575" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="12">Project Detail — Editorial Layout</text>
+</svg>

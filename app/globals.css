@@ -1,26 +1,131 @@
 @import "tailwindcss";
 
+/* 
+  Typography tokens - Vietnamese Optimized
+  Current: Be Vietnam Pro (sans) + Playfair Display (serif) from Google Fonts
+  Both fonts fully support Vietnamese diacritics
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors - Quiet Luxury Palette */
+  --color-bg: #fcfcfa;
+  --color-bg-alt: #f5f4f0;
+  --color-text: #0f0f0f;
+  --color-text-muted: #6b6b6b;
+  --color-border: rgba(15, 15, 15, 0.08);
+  --color-accent: #eae7e0;
+
+  /* Typography - Vietnamese optimized */
+  --font-sans: var(--font-be-vietnam-pro), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-playfair-display), Georgia, serif;
+
+  /* Spacing */
+  --container-max: 1040px;
+  --container-padding: 1.5rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.75; /* Increased for Vietnamese diacritics */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography - Vietnamese optimized */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.2; /* Slightly increased for Vietnamese accents */
+  letter-spacing: -0.02em;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-text);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}
+
+/* Smooth image loading */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container utility */
+.container-main {
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding: 2.5rem;
+  }
+}
+
+/* Hairline borders */
+.border-hairline {
+  border-color: var(--color-border);
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
 }

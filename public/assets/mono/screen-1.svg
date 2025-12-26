@@ -1,0 +1,95 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F5F4F0"/>
+  
+  <!-- Browser Frame -->
+  <rect x="80" y="40" width="640" height="520" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="80" y="40" width="640" height="32" rx="8" fill="#FAFAFA"/>
+  <rect x="80" y="68" width="640" height="4" fill="#FAFAFA"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="104" cy="56" r="5" fill="#FF5F56"/>
+  <circle cx="120" cy="56" r="5" fill="#FFBD2E"/>
+  <circle cx="136" cy="56" r="5" fill="#27CA40"/>
+  
+  <!-- Content Area - Token System -->
+  <rect x="100" y="90" width="600" height="450" fill="#FCFCFA"/>
+  
+  <!-- Header -->
+  <text x="130" y="130" fill="#0F0F0F" font-family="system-ui" font-size="20" font-weight="600">Color Tokens</text>
+  <text x="130" y="155" fill="#6B6B6B" font-family="system-ui" font-size="12">Semantic color system with dark mode support</text>
+  
+  <!-- Color Swatches Row 1 - Primary -->
+  <text x="130" y="195" fill="#6B6B6B" font-family="system-ui" font-size="10">PRIMARY</text>
+  
+  <rect x="130" y="205" width="50" height="50" rx="6" fill="#0F0F0F"/>
+  <text x="155" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">900</text>
+  
+  <rect x="190" y="205" width="50" height="50" rx="6" fill="#2a2a2a"/>
+  <text x="215" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">800</text>
+  
+  <rect x="250" y="205" width="50" height="50" rx="6" fill="#4a4a4a"/>
+  <text x="275" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">700</text>
+  
+  <rect x="310" y="205" width="50" height="50" rx="6" fill="#6B6B6B"/>
+  <text x="335" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">600</text>
+  
+  <rect x="370" y="205" width="50" height="50" rx="6" fill="#8B8B8B"/>
+  <text x="395" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">500</text>
+  
+  <rect x="430" y="205" width="50" height="50" rx="6" fill="#ABABAB"/>
+  <text x="455" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">400</text>
+  
+  <rect x="490" y="205" width="50" height="50" rx="6" fill="#D5D5D5"/>
+  <text x="515" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">300</text>
+  
+  <rect x="550" y="205" width="50" height="50" rx="6" fill="#EFEFEF"/>
+  <text x="575" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">200</text>
+  
+  <rect x="610" y="205" width="50" height="50" rx="6" fill="#FAFAFA" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="635" y="270" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">100</text>
+  
+  <!-- Color Swatches Row 2 - Semantic -->
+  <text x="130" y="310" fill="#6B6B6B" font-family="system-ui" font-size="10">SEMANTIC</text>
+  
+  <rect x="130" y="320" width="50" height="50" rx="6" fill="#22C55E"/>
+  <text x="155" y="385" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">Success</text>
+  
+  <rect x="190" y="320" width="50" height="50" rx="6" fill="#EF4444"/>
+  <text x="215" y="385" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">Error</text>
+  
+  <rect x="250" y="320" width="50" height="50" rx="6" fill="#F59E0B"/>
+  <text x="275" y="385" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">Warning</text>
+  
+  <rect x="310" y="320" width="50" height="50" rx="6" fill="#3B82F6"/>
+  <text x="335" y="385" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="9">Info</text>
+  
+  <!-- Spacing Section -->
+  <text x="130" y="430" fill="#6B6B6B" font-family="system-ui" font-size="10">SPACING SCALE</text>
+  
+  <rect x="130" y="445" width="8" height="20" fill="#0F0F0F"/>
+  <text x="130" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">4</text>
+  
+  <rect x="160" y="445" width="16" height="20" fill="#0F0F0F"/>
+  <text x="160" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">8</text>
+  
+  <rect x="200" y="445" width="24" height="20" fill="#0F0F0F"/>
+  <text x="200" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">12</text>
+  
+  <rect x="250" y="445" width="32" height="20" fill="#0F0F0F"/>
+  <text x="250" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">16</text>
+  
+  <rect x="310" y="445" width="48" height="20" fill="#0F0F0F"/>
+  <text x="310" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">24</text>
+  
+  <rect x="390" y="445" width="64" height="20" fill="#0F0F0F"/>
+  <text x="390" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">32</text>
+  
+  <rect x="490" y="445" width="96" height="20" fill="#0F0F0F"/>
+  <text x="490" y="480" fill="#6B6B6B" font-family="system-ui" font-size="8">48</text>
+  
+  <!-- Label -->
+  <text x="400" y="575" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="12">Token Architecture — Foundation Layer</text>
+</svg>

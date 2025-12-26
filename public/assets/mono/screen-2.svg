@@ -1,0 +1,81 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F5F4F0"/>
+  
+  <!-- Browser Frame -->
+  <rect x="80" y="40" width="640" height="520" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="80" y="40" width="640" height="32" rx="8" fill="#FAFAFA"/>
+  <rect x="80" y="68" width="640" height="4" fill="#FAFAFA"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="104" cy="56" r="5" fill="#FF5F56"/>
+  <circle cx="120" cy="56" r="5" fill="#FFBD2E"/>
+  <circle cx="136" cy="56" r="5" fill="#27CA40"/>
+  
+  <!-- Content Area -->
+  <rect x="100" y="90" width="600" height="450" fill="#FCFCFA"/>
+  
+  <!-- Header -->
+  <text x="130" y="130" fill="#0F0F0F" font-family="system-ui" font-size="20" font-weight="600">Component Library</text>
+  <text x="130" y="155" fill="#6B6B6B" font-family="system-ui" font-size="12">47 production-ready components</text>
+  
+  <!-- Component Grid -->
+  <!-- Card 1 -->
+  <rect x="130" y="180" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="150" y="200" width="130" height="36" rx="6" fill="#0F0F0F"/>
+  <text x="215" y="224" text-anchor="middle" fill="#FFFFFF" font-family="system-ui" font-size="12">Button</text>
+  <text x="150" y="270" fill="#6B6B6B" font-family="system-ui" font-size="10">6 variants • 3 sizes</text>
+  <text x="150" y="285" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Card 2 -->
+  <rect x="315" y="180" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="335" y="200" width="130" height="36" rx="6" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="350" y="215" fill="#9CA3AF" font-family="system-ui" font-size="10">Search products...</text>
+  <text x="335" y="270" fill="#6B6B6B" font-family="system-ui" font-size="10">Input</text>
+  <text x="335" y="285" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Card 3 -->
+  <rect x="500" y="180" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="520" y="200" width="130" height="50" rx="6" fill="#FAFAFA"/>
+  <text x="535" y="220" fill="#0F0F0F" font-family="system-ui" font-size="11" font-weight="500">Card Title</text>
+  <text x="535" y="238" fill="#6B6B6B" font-family="system-ui" font-size="9">Description text here</text>
+  <text x="520" y="285" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Card 4 -->
+  <rect x="130" y="320" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="150" y="340" width="16" height="16" rx="4" fill="#0F0F0F"/>
+  <text x="170" y="351" fill="#FFFFFF" font-family="system-ui" font-size="10">✓</text>
+  <rect x="180" y="340" width="80" height="16" rx="4" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="150" y="395" fill="#6B6B6B" font-family="system-ui" font-size="10">Checkbox</text>
+  <text x="150" y="410" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Card 5 -->
+  <rect x="315" y="320" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="335" y="340" width="130" height="32" rx="6" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="350" y="360" fill="#0F0F0F" font-family="system-ui" font-size="11">Select option</text>
+  <text x="450" y="360" fill="#6B6B6B" font-family="system-ui" font-size="11">▼</text>
+  <text x="335" y="410" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Card 6 -->
+  <rect x="500" y="320" width="170" height="120" rx="8" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <circle cx="545" cy="356" r="16" fill="#E5E5E5"/>
+  <text x="570" y="352" fill="#0F0F0F" font-family="system-ui" font-size="11" font-weight="500">User Name</text>
+  <text x="570" y="366" fill="#6B6B6B" font-family="system-ui" font-size="9">@username</text>
+  <text x="520" y="410" fill="#22C55E" font-family="system-ui" font-size="9">✓ Accessible</text>
+  
+  <!-- Stats -->
+  <rect x="130" y="460" width="540" height="60" rx="8" fill="#F8F8F6"/>
+  <text x="200" y="485" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="10">Components</text>
+  <text x="200" y="505" text-anchor="middle" fill="#0F0F0F" font-family="system-ui" font-size="16" font-weight="600">47</text>
+  
+  <text x="400" y="485" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="10">Variants</text>
+  <text x="400" y="505" text-anchor="middle" fill="#0F0F0F" font-family="system-ui" font-size="16" font-weight="600">186</text>
+  
+  <text x="600" y="485" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="10">Coverage</text>
+  <text x="600" y="505" text-anchor="middle" fill="#0F0F0F" font-family="system-ui" font-size="16" font-weight="600">100%</text>
+  
+  <!-- Label -->
+  <text x="400" y="575" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="12">Component Grid — Production Ready</text>
+</svg>

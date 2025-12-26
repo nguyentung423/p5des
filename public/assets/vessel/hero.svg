@@ -1,0 +1,63 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F5F4F0"/>
+  
+  <!-- Browser Frame -->
+  <rect x="100" y="80" width="1000" height="640" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="100" y="80" width="1000" height="40" rx="8" fill="#FAFAFA"/>
+  <rect x="100" y="112" width="1000" height="8" fill="#FAFAFA"/>
+  
+  <!-- Traffic Lights -->
+  <circle cx="128" cy="100" r="6" fill="#FF5F56"/>
+  <circle cx="148" cy="100" r="6" fill="#FFBD2E"/>
+  <circle cx="168" cy="100" r="6" fill="#27CA40"/>
+  
+  <!-- URL Bar -->
+  <rect x="300" y="90" width="600" height="20" rx="4" fill="#EFEFEF"/>
+  <text x="600" y="104" text-anchor="middle" fill="#6B6B6B" font-family="system-ui" font-size="10">vessel-architecture.com</text>
+  
+  <!-- Content Area -->
+  <rect x="140" y="160" width="920" height="520" fill="#FCFCFA"/>
+  
+  <!-- Navigation -->
+  <text x="180" y="200" fill="#0F0F0F" font-family="Georgia" font-size="18" font-style="italic">Vessel</text>
+  <text x="860" y="200" fill="#6B6B6B" font-family="system-ui" font-size="12">Projects</text>
+  <text x="940" y="200" fill="#6B6B6B" font-family="system-ui" font-size="12">About</text>
+  <text x="1010" y="200" fill="#6B6B6B" font-family="system-ui" font-size="12">Contact</text>
+  
+  <!-- Hero Section -->
+  <text x="180" y="300" fill="#0F0F0F" font-family="Georgia" font-size="48">Architecture</text>
+  <text x="180" y="360" fill="#0F0F0F" font-family="Georgia" font-size="48">for living.</text>
+  <text x="180" y="420" fill="#6B6B6B" font-family="system-ui" font-size="14">Residential design studio based in Copenhagen.</text>
+  <text x="180" y="445" fill="#6B6B6B" font-family="system-ui" font-size="14">Thoughtful spaces, lasting impact.</text>
+  
+  <!-- Featured Project Image Placeholder -->
+  <rect x="600" y="240" width="420" height="280" rx="4" fill="#E8E8E8"/>
+  <text x="810" y="390" text-anchor="middle" fill="#9CA3AF" font-family="system-ui" font-size="14">Featured Project</text>
+  
+  <!-- Project Cards -->
+  <text x="180" y="520" fill="#6B6B6B" font-family="system-ui" font-size="10">SELECTED WORK</text>
+  
+  <!-- Card 1 -->
+  <rect x="180" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="195" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
+  <text x="290" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Nordic Residence</text>
+  <text x="290" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Copenhagen, 2024</text>
+  <text x="290" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Residential</text>
+  
+  <!-- Card 2 -->
+  <rect x="470" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="485" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
+  <text x="580" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Harbor View</text>
+  <text x="580" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Aarhus, 2023</text>
+  <text x="580" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Commercial</text>
+  
+  <!-- Card 3 -->
+  <rect x="760" y="540" width="270" height="100" rx="4" fill="#FFFFFF" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="775" y="555" width="80" height="70" rx="2" fill="#E8E8E8"/>
+  <text x="870" y="580" fill="#0F0F0F" font-family="system-ui" font-size="13" font-weight="500">Villa Serene</text>
+  <text x="870" y="600" fill="#6B6B6B" font-family="system-ui" font-size="11">Malmö, 2023</text>
+  <text x="870" y="620" fill="#6B6B6B" font-family="system-ui" font-size="10">Residential</text>
+</svg>
